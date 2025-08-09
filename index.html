@@ -11,7 +11,10 @@
  
         <!-- navigation on the left -->
         <div class = "sidebar">
-            <div class = "dashboard"> Dashboard</div>
+            <div class = "dashboard"> 
+                <p> <img src="images/widgets_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt="bookmark">Dashboard</p>
+
+            </div>
             <div class = "top-menu"> 
                 <div class="menu-item">  
                     <p><img src="images/home_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt="icon of home">Home</p>
@@ -24,9 +27,7 @@
 
                 <div class="menu-item"> 
                     
-                    <p><img src="images/chat_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt="icon of chat">Messages</p>
-                    
-                        
+                    <p><img src="images/chat_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt="icon of chat">Messages</p>      
                     
                 </div>
 
@@ -68,22 +69,34 @@
 
         <!-- header section -->
         <div class="banner">
+            
             <div class="search">
-                <button>search</button>
+                <img class="search-icon" src="images/search_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="search">
+                <form role="search">
+                <label for="search-input"></label>
+                <input type="search" id="search-input" name="search">
+                </form>
+               
             </div>
-             <img class="icon-picture" src="images/sorc.png" alt="ai generated sorceress"> 
-            <div> Skelar Pluum
+            
+            <div class="corner-link"> 
+            <p> <img class="notifications-icon" src="images/notifications_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="notifications">
+                <img class="icon-picture" src="images/sorc.png" alt="ai generated sorceress"> Imogen Knowles
+            </p>    
+            </div>
 
-            </div>
-            <div>
-                Hi there,
+
+
+            <div class= "greeting">
+                <img class="icon-picture" src="images/sorc.png" alt="ai generated sorceress">
+                <div class="name"> 
+                <p class="hi">Hi there,</p>
+                <p class="greeting-name">
+                Imogen Knowles</p>
+                </div>
             </div>
 
-            <div>
-                Skelar Pluum
-            </div>
-
-            <div>
+            <div class="links">
                 <button>New</button>
                 <button>Upload</button>
                 <button>Share</button>
@@ -97,7 +110,7 @@
             <!-- middle section -->
              <div class="contents"> 
                 
-                <div clas="projectLists">
+                <div class="project-lists">
                     <h1>Your Projects</h1>
                         <div class="card">
                         <p class="title">Super Cool Project</p>
