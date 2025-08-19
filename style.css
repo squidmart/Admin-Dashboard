@@ -18,7 +18,8 @@ body {
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 4fr;
-    min-height: 100vh;
+    
+    
     
 }
 
@@ -82,22 +83,24 @@ body {
     grid-row:2/3;
     display: grid;
     grid-template-columns: 3fr 1fr; 
-  
     background-color: gainsboro;
     gap: 20px;
 }
 
 .project-lists {
     display: grid;
-    grid-template-columns: autofit minmax(200px 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(autofit, minmax(200px, 1fr));
     gap: 15px;
 }
-
-.project-lists h1{
-
-    grid-row: 1/1;
+.rightSidebar {
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 20px;
 }
+/* .project-lists h1{
+
+    grid-row: 1/-1;
+} */
 
 
 ul {
